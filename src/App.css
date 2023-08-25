@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+  background-image: url("https://singularityhub.com/wp-content/uploads/2022/04/nasa-earth-from-space-at-night-scaled.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.list-group {
+  width: 80%;
+  margin: auto;
+}

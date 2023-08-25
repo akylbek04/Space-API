@@ -1,0 +1,60 @@
+
+.offcanvas {
+  background-color: black;
+  opacity: 0.8;
+  max-width: 200px;
+}
+
+.offcanvas-header {
+  font-weight: bold;
+  border: 1px solid white;
+
+}
+
+.offcanvas-header .btn-close {
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  border: none;
+}
+
+.offcanvas-header .btn-close:hover{
+    color: rgb(103, 33, 33);
+    background-color: black;
+}
+
+.offcanvas-body a {
+  text-decoration: none;
+  color: white;
+  /* font-weight: bold; */
+}
+
+
+
+
+
+.offcanvas-body a:hover {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+  font-weight: bold;
+  background-color: aliceblue;
+  /* font-size: 20px; */
+}
+
+
+
+svg.space-icon{
+    transition: 0.15s ease-in 0.02s;
+    fill: rgb(205, 205, 205);
+    margin: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+svg.space-icon:hover{
+    padding: 6px;
+    transform: rotate(-90deg);
+    fill: white;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.357);
+}
